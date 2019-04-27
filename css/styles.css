@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    font-size: 14px;
+    padding: 15px;
+}
+
+li  {
+    display: inline;
+    float: right;
+   
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    padding-top: 109px;
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 10px auto;
+}
