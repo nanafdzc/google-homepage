@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 10px;
-    font-size: 14px;
+    font-size: 12px;
     padding: 15px;
 }
 
@@ -23,4 +23,29 @@ a {
     height: 92px;
     display: block;
     margin: 10px auto;
+}
+
+input{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 13px;
+    text-align: center;
+    width: 550px;
+    border-width: 1px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+}
+
+button{
+    padding: 10px;
+    size: 16px;
+    margin: 12px;
+    background-color:   #f3f3f3  ;
+    border: none;
+}
+
+body {
+    text-align: center
 }
