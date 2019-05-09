@@ -1,17 +1,17 @@
-ul {
+.nav ul {
     list-style-type: none;
     margin: 10px;
     font-size: 12px;
     padding: 15px;
 }
 
-li  {
+.nav li  {
     display: inline;
     float: right;
    
 }
 
-a {
+.nav a {
     padding: 10px;
     text-decoration: none;
     color: black;
@@ -42,10 +42,47 @@ button{
     padding: 10px;
     size: 16px;
     margin: 12px;
-    background-color:   #f3f3f3  ;
+    background-color:   #f3f3f3;
     border: none;
 }
 
 body {
     text-align: center
 }
+
+.fbar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:  #f3f3f3;
+    border: 1px solid #616161;
+
+  }
+
+  .infofooter a {
+      text-decoration: none;
+      font-size: 12px;
+      padding: 5px;
+      color:  #616161;
+
+  }
+  
+  .Uruguay ul {
+      list-style-type: none;
+      font-size: 15px;
+      color:    #616161;
+      text-align: left;
+   
+  }
+
+  .infofooter li {
+      display: inline;
+  }
+
+
+  #footer {
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+  }
